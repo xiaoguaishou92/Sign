@@ -32,6 +32,7 @@ public class Sign {
 		//fos=new FileOutputStream(f);
 		FileWriter fw=new FileWriter(f, true);
 		
+		
 		fw.write(time);
 		fw.append("\r\n");
 		fw.flush();
